@@ -94,6 +94,4 @@ For my predictions, I chose a threshold of `0.98` because with it I could annota
 
 ### Discussion
 
-#### 1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
-
 False positive may challenge my pipeline. It can fail detecting motorcycles or bicycles for exemple. And it may also falsely identify non-vehicles like trees as vehicles. To fix these two problems, it is important to improve the training dataset by adding motorcycles, bicycles and negative features
